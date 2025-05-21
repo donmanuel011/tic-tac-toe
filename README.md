@@ -2,8 +2,9 @@
 
 A simple, responsive, and interactive Tic Tac Toe game built with **HTML**, **CSS**, **JavaScript**, and styled using **Bootstrap 5**.
 
-## 🖼️ Preview
+## 🔗 Live Demo
 
+👉 [Play the Game](https://donmanuel011.github.io/tic-tac-toe/)
 
 ## 🚀 Features
 
