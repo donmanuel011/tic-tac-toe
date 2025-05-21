@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: crosshair;
+  border: #000000 solid 1px;
+  border-collapse: collapse;
+}
+
+.cell:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(5, 202, 242, 0.897);
+}
+
+#status {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+.btn-primary:hover {
+  box-shadow: 1px 1px 5px rgba(63, 53, 220, 0.838);
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+.cells-hover-x {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><text x="4" y="28" font-size="28" font-family=" Press Start 2P">X</text></svg>')
+      16 16,
+    pointer !important;
+}
+.cells-hover-o {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><text x="4" y="28" font-size="28" font-family=" Press Start 2P">O</text></svg>')
+      16 16,
+    pointer !important;
+}
